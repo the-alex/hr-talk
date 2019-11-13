@@ -1,0 +1,21 @@
+# Init antigen
+source /usr/local/share/antigen/antigen.zsh
+antigen use oh-my-zsh
+antigen use rupa/z
+antigen bundle git
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen theme geometry-zsh/geometry
+antigen apply
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_COMMAND="fd --type file --color=always"
+export FZF_DEFAULT_OPTS="--ansi"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Aliases
+alias -g kc="kubectl"
+alias -g dc="docker-compose"
+
+# Put coreutils upgrades on the path
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
