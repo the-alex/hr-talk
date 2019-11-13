@@ -1,0 +1,43 @@
+#+TITLE: Learning the Command Line
+#+OPTIONS: toc:nil
+
+
+* About Me
+** School + HR
+CS, Design, ML, Front end
+** Work
+Agile (different everywhere), CI/CD, Data Science and ML teams, Libraries
+* Terminals, shells, commands
+** Terminal, Iterm2, Tilda
+** sh, bash, zsh
+** wc, cat, grep
+* Why, though?
+** Things are fast on the command line
+[[https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html][sometimes crazy fast]]
+** Remote machines
+/"The Cloud"/ is just other people's computers. Sometimes they don't have a
+screen.
+** Old tech is well documented and reliable
+** Your environment is not what serves in prod
+- nix
+- Docker
+- Linux
+* Humility
+** There's no way to know everything
+- Everything comes with time.
+- Helps to know a bigger nerd. Mentorship is everything.
+** Don't repeat yourself!
+Stay /DRY/, kids
+** Being fancy doesn't always mean being fast (or good ...)
+https://imgs.xkcd.com/comics/automation_2x.png
+* Keeping track of it all
+- ~man~, ~tldr~, ~--help~
+- Keep a text file
+- Get better at searching your history
+* Cool things you can use everyday
+** ~alias~
+** ~entr~
+** ~fzf~
+* If we have time
+** Shell configs
+** git configs
